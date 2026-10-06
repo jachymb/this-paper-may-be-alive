@@ -43,3 +43,9 @@ bash build.sh            # main.pdf: everything; generation takes about a minute
 
 The generator asserts that the rounded arithmetic produces the same five tokens as the float32 reference implementation
 before writing anything.
+
+## The Inspiration
+Huge shoutout to /u/erraticpulse- who created the viral meme. This work follows their footsteps.
+
+![](https://i.redd.it/nf6dcl8l7ygg1.png)
+
