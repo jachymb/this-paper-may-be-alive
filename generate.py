@@ -98,12 +98,13 @@ def rope_table(f, u, ut, cos, sin, i, usym, utsym):
     blocks(f, hdr, rows, 32, 2, "r|rrrrrr")
 
 
-def tex_token(s):
-    """A token string, typeset verbatim-ish in \\texttt with TeX specials escaped."""
+def tex_token(s, mark_spaces=True):
+    """A token string, typeset verbatim-ish in \\texttt with TeX specials escaped.
+    Spaces are shown as a visible-space mark (a token's leading space matters) unless mark_spaces is False."""
     out = []
     for c in s:
         if c == " ":
-            out.append(r"\textvisiblespace{}")
+            out.append(r"\textvisiblespace{}" if mark_spaces else " ")
         elif c == "\n":
             out.append(r"\textbackslash{}n")
         elif c == "\t":
@@ -272,7 +273,7 @@ def write_results(tr, tok, n_in, ref_out, ref_margin, n_params):
         f.write(f"\\newcommand{{\\NumMul}}{{{stats['mul']:,}}}\n\\newcommand{{\\NumEq}}{{{stats['eq']:,}}}\n"
                 f"\\newcommand{{\\SigW}}{{{SIG_W}}}\n\\newcommand{{\\SigA}}{{{SIG_A}}}\n"
                 f"\\newcommand{{\\NumParams}}{{{n_params:,}}}\n"
-                f"\\newcommand{{\\OutputText}}{{{tex_token(tok.decode(ref_out))}}}\n")
+                f"\\newcommand{{\\OutputText}}{{{tex_token(tok.decode(ref_out), mark_spaces=False)}}}\n")
 
 
 def main():
