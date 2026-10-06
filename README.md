@@ -13,7 +13,7 @@ sufficient for the paper.
 ## The paper
 
 **[Download main.pdf](https://github.com/jachymb/this-paper-may-be-alive/releases/latest/download/main.pdf)**
-(81,655 A4 pages, 808 MB; open it with a viewer that loads pages lazily, e.g. SumatraPDF or Acrobat).
+(81,656 A4 pages, 808 MB; open it with a viewer that loads pages lazily, e.g. SumatraPDF or Acrobat).
 
 **Part I** (the first ten pages) is the paper proper: introduction, a discussion, the architecture, the rounding conventions that make the
 printed arithmetic exactly reproducible, the results and the bibliography.
