@@ -47,7 +47,7 @@ The generator asserts that the rounded arithmetic produces the same five tokens 
 before writing anything.
 
 ## The Inspiration
-Huge shoutout to /u/erraticpulse- who created the viral meme. This work follows their footsteps.
+Huge shoutout to /u/erraticpulse- who created the viral meme. This work follows the path they hinted at.
 
 ![](https://i.redd.it/nf6dcl8l7ygg1.png)
 
