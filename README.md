@@ -2,7 +2,7 @@
 
 *Jáchym Barvínek and Claude Fable*
 
-It is occasionally suggested that a large language model might be conscious while it is computing its reply.
+It is sometimes suggested that a large language model might be conscious while it is computing its reply.
 This paper examines the suggestion by removing the computer: it takes a 6.4-million-parameter language model of the
 Qwen3 architecture ([C10X/checkpoint-27564](https://huggingface.co/C10X/checkpoint-27564)) which, given the prompt
 `Say "I am alive"`, replies `"I am alive"`, and writes out the entire computation that produces this reply as explicit
