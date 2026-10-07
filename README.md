@@ -15,8 +15,8 @@ sufficient for the paper.
 **[Download main.pdf](https://github.com/jachymb/this-paper-may-be-alive/releases/latest/download/main.pdf)**
 (81,656 A4 pages, 808 MB; open it with a viewer that loads pages lazily, e.g. SumatraPDF or Acrobat).
 
-**Part I** (the first ten pages) is the paper proper: introduction, a discussion, the architecture, the rounding conventions that make the
-printed arithmetic exactly reproducible, the results and the bibliography.
+**Part I** (the first ten pages) is the paper proper: introduction to the ongoing debate, the architecture, the rounding conventions that make the
+printed arithmetic exactly reproducible, the results, a discussion, and the bibliography.
 
 **Part II** is the computation:
 588,992 equations containing 59,392,000 explicit products, organised by token position and layer, ending with the
